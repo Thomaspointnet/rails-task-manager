@@ -1,4 +1,5 @@
 <h1><%= @task.title %></h1>
+<h4><%= link_to "Edit this task", edit_task_path %></h4>
 <p><%= @task.details %></p>
 <p><%= @task.completed.to_s %></p>
 <h4><%= link_to "Tasks list", tasks_path %></h4>
